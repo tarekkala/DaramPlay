@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drama play</title>
+    <link rel="icon" type="image/png" href="logo1.png">
+    <link rel="stylesheet" href="drama.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+     <script src="https://kit.fontawesome.com/42717c58d8.js" crossorigin="anonymous"></script>
+
+    
+</head>
+<body align="center">
+ 
+    <header style="padding: 0;">
+        <h2 style="margin-top: -700px; padding: 0; display: flex;"><a href="#" class="logo"><img src="logo1.png" height="100px" width="120px"></a></h2>
+           
+             
+        <ul style="display: flex; margin-top: -650px; margin-right: 100px;">
+            
+            <li style="display: inline; padding: 0; margin-top: 10px; margin-left: 900px;"><a href="insert.html" style="background-color: #545454; 
+            border-radius: 5px;
+             display: inline-block;
+             margin-top: -100px;
+             padding: 0;" >الصفحة الرئسية </a></li>
+    
+    
+        </ul>
+        <div class="container">
+        
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search...">
+          <button type="submit" name="submit_search" >بحث</button>
+      
+          
+          </div>
+      
+        <table id="myTable" style="margin-top: 400px;">
+          <tr class="header">
+          </tr>
+
+          <tr class="tr1">
+            <td class="td1">فيلم ريش </td>
+            <td class="td2"><img  class="img11" src="resh.jpg" width="450" height="300"></td>
+            <td class="td3">
+              <form action="insert.html" method="post">
+                
+                <button  class="button3" name='upload' style="border: none;
+                
+                width: 100%;
+                font-weight: bold;
+                font-size: 15px;
+                background-color: #38B6FF;
+                cursor: pointer;
+                font-family: 'Courier New', Courier, monospace;
+                margin-bottom: 15px;
+                border-radius: 30px;
+                margin-right: 150px;" > مشاهدة</button>
+              </form>
+          
+
+            </td>
+          </tr>
+
+
+          <tr class="tr01">
+            <td class="td01"> فيلم معزستان</td>
+            <td class="td02"><img  class="img11" src="stan.jfif" width="450" height="300"></td>
+            <td class="td03">
+              <form action="insert.html" method="post">
+                
+                <button  class="button3" name='upload' style="border: none;
+                width: 100%;
+                font-weight: bold;
+                font-size: 15px;
+                background-color: #38B6FF;
+                cursor: pointer;
+                font-family: 'Courier New', Courier, monospace;
+                margin-bottom: 15px;
+                border-radius: 30px;
+                margin-left: 150px;" > مشاهدة</button>
+              </form>
+          
+
+            </td>
+          </tr>
+        </table> 
+        
+       
+    </header>
+   
+
+
+    <br><br>
+    <div class="don">
+        <div class="don1">
+          <div class="don01">
+          <a href="https://www.facebook.com/profile.php?=100019605750611"><i class="fa-brands fa-facebook fa-3x" style="margin-top: 60px; color: rgb(255, 255, 255);"></i></a>
+          </div>
+        <span style="color: aliceblue;">الفيسبوك</span>
+        </div>
+      
+        <div class="don2">
+          <div class="don02">
+          <a href= "https://wa.me/+0201066817259" ><i class="fa-brands fa-whatsapp fa-3x" style="margin-top: 60px; color: rgb(255, 255, 255);"></i></a>
+
+          </div>
+        <span style="color: aliceblue;">الواتساب</span>
+        </div> 
+      
+        <div class="don3">
+          <div class="don03">
+          <a href="https://www.instagram.com/tarekk_khalaf/?utm_source=qr"><i class="fa-brands fa-instagram fa-3x" style="margin-top: 60px; color: rgb(255, 255, 255);"></i></a>
+          </div>
+        <span style="color: aliceblue;">الانستغرام</span>
+        </div> 
+      
+        <div class="don4">
+          <div class="don04">
+          <a href="https://twitter.com/TarekKhalaf2002?s=09"><i class="fa-brands fa-twitter fa-3x" style="margin-top: 60px; color: rgb(255, 255, 255); "></i></a>
+          </div>
+        <span style="color: aliceblue;">التويتر</span>
+        </div> 
+      </div> 
+      <p style="color: aliceblue; font-size: 20px; margin-top: 20px;">
+           play جميع الحقوق محفوظة لدي شبكة @ دراما 
+           <br>
+      </p>
+                  <p style="color: aliceblue; font-size: 20px;">
+                   Developer By Tarek Khalaf 
+      
+                  <br>
+                   </p>
+                   <script>
+                    function myFunction() {
+                      // Declare variables
+                      var input, filter, table, tr, td, i, txtValue;
+                      input = document.getElementById("myInput");
+                      filter = input.value.toUpperCase();
+                      table = document.getElementById("myTable");
+                      tr = table.getElementsByTagName("tr");
+                    
+                      // Loop through all table rows, and hide those who don't match the search query
+                      for (i = 0; i < tr.length; i++) {
+                        td = tr[i].getElementsByTagName("td")[0];
+                        if (td) {
+                          txtValue = td.textContent || td.innerText;
+                          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                            tr[i].style.display = "";
+                          } else {
+                            tr[i].style.display = "none";
+                          }
+                        }
+                      }
+                    }
+                    </script>                
+      
+    
+
+        
+   
+   
+</body>
+</html>

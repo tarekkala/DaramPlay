@@ -1,0 +1,386 @@
+
+   
+body{
+    background: -webkit-repeating-linear-gradient(#ffffff,#ffffff,#ffffff,#ffffff,#ffffff,#000000);
+    height: 100hv;
+    font-family: system-ui;
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    width: 95%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+header h2 .logo{
+    font-size: 10px;
+    text-transform: uppercase;
+    display: flex;
+    
+
+    
+    
+    
+    
+}
+.logo1{
+    background-color:#38B6FF;
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-top: 50px;
+    margin-right: 500px;
+    font-size: 30px;
+    display: flex;
+    color: #545454;
+
+    
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    
+}
+header ul li{
+    margin-right: 30px;
+}
+header ul li{
+    padding: 6px 15px;
+}
+header ul li a:hover{
+    background-color: #fff;
+    color: #200016;
+}
+.imag1{
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    margin-top: 100px;
+    border-radius: 30px;
+
+    
+}
+.imag2{
+    border-radius: 30px;
+
+
+    
+}
+.imag3{
+    border-radius: 30px;
+
+
+    
+}
+.imag4{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px auto;    
+}
+.button1{
+    border: none;
+    padding: 10px;
+    width: 40%;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+    background-color: #38B6FF;
+    margin-left: 550px;
+    border-radius: 30px;
+    color: black;
+    
+}
+.button2{
+    border: none;
+    padding: 10px;
+    width: 30%;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #38B6FF;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    
+
+    
+}
+.button3{
+    border: none;
+    padding: 10px;
+    width: 30%;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #38B6FF;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    
+}
+.button4{
+    border: none;
+    padding: 10px;
+    width: 30%;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #38B6FF;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    
+}
+.button5{
+    border: none;
+    padding: 10px;
+    width: 30%;
+    font-weight: bold;
+    font-size: 15px;
+    background-color:#38B6FF;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+.button6{
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    
+
+
+}
+.button7{
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    
+
+}
+.alb1{
+    color: black;
+    font-size: 35px;
+    height: 2.5cm;
+    margin-left: 550px;
+}
+.alb2{
+    color: black;
+    font-size: 30px;
+    height: 2cm;
+    margin-left: 550px;
+}
+.alb3{
+    
+    font-size: 30px;
+    height: 2cm;
+    margin-right: 50px;
+    color: black;
+    display: flex;
+}
+.alb4{
+    font-size: 30px;
+    height: 2cm;
+    margin-left: 100px;
+    color: black;
+    display: flex;
+    
+}
+
+       
+
+.alp03{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+       
+}
+ 
+    
+
+.photo{
+    margin-top: 100px;
+    width: 700px;
+    right: 500px;
+}
+.text1{
+    background-color: #545454;
+    border-radius:400px;
+    width:30%;
+    height: 250px;
+    margin-top:50px;
+    display: inline-block;
+}
+    
+.text1 span{
+    font-size: 30px;
+}
+
+.shahd{
+    background-color: #545454;
+    border-radius: 30px;
+    width:30%;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 100px;
+
+    
+    
+}
+.shahd span{
+    font-size: 30px;
+}
+.shahd2{
+    background-color: #545454;
+    border-radius: 30px;
+    width:30%;
+    height: 250px;
+    margin-right: 20px;
+    margin-top: 100px;
+
+}
+.shahd2 span{
+    font-size: 30px;}
+.tarek{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    margin-top: 10px;
+}
+.container{
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    padding: 0;
+    margin-top: -300px;
+    margin-left: -1000px;
+    
+    
+}
+.container input{
+    width: 800px;
+    height: 50px;
+    margin-right: 200px;
+    background-color:#121212;
+    color: #fff;
+    border-radius: 10px;
+    padding: 0;
+    margin-top: 100px;
+
+    
+
+}
+.container button{
+    width: 300px;
+    height: 50px;
+    background-color: #38B6ff;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 30px;
+    display: inline;
+    margin-right: 200px;
+
+}
+.don{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    margin-top: 300px;
+
+}
+.photo{
+    margin-bottom: 10px;
+}
+.tr1{
+    margin-left: -1600px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0;
+    margin-right: 100px;
+    
+}
+.tr01{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0;
+    width: 50%;
+    margin-left: 25%;
+
+    
+    
+}
+.td1{
+    margin-left: -60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+
+
+}
+.td01{
+    margin-left: 80px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 300px;
+    
+
+
+}
+.td2{
+    margin-top: 10px;
+
+}
+.td02{
+    margin-top: 10px;}
+.td3{
+    margin-top: 10px;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.td03{
+    margin-top: 10px;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.img11{
+    border-radius: 30px;
+}
